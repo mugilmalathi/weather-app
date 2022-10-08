@@ -1,0 +1,143 @@
+@media only screen and (max-width: 600px) {
+    .container{
+        width: 100%;
+       /* border: 1px solid;
+       height: 750px; */
+       margin: auto;
+        
+    }
+    
+    .container_inside{
+        width: 100%;
+        height: 100vh;
+        /* border: 1px solid; */
+        margin: auto;
+        margin-top: 1%;
+        overflow: scroll;   
+        box-shadow: rgba(6, 24, 44, 0.4) 0px 0px 0px 2px, rgba(6, 24, 44, 0.65) 0px 4px 6px -1px, rgba(255, 255, 255, 0.08) 0px 1px 0px inset;
+        background-color: white;
+        border-radius: 35px;
+        }
+    
+    .input{
+        padding: 15px 30px; 
+        margin: 10px 30px;
+        width: 68%;
+        border-radius: 15px;
+    }
+    .search1{
+        margin-left: 83%;
+        margin-top: -45px;
+        margin-bottom: 30px;
+       
+        
+    }
+    .outputBox{
+        /* border: 1px solid black; */
+        height: 400px;
+        width: 96.5%;
+        margin-left: 3%;
+        margin-top: 5px;
+        border-radius: 8px;
+        overflow-y: scroll;
+        /* background-color: white; */
+        backdrop-filter: blur(10px);
+        
+    }
+    
+     .outputBox::-webkit-scrollbar {
+        display: none;
+    } 
+    .container_inside::-webkit-scrollbar {
+        display: none;
+    } 
+    
+    
+    .cityBoxSingle{
+        border: 1px solid black;
+        height: 50px;
+        margin-top: 1px;
+        border-radius: 8px;
+    }
+    .cityBoxSingle:hover{
+        cursor: pointer;
+        background-color: rgb(220, 214, 214);
+    }
+    .city{
+        font-size: 20px;
+        padding: 5px;
+        font-weight: 500;
+    }
+    .state{
+        font-size: 15px;
+    }
+    
+    
+    
+    
+    .outWeatherBox{
+        display: flex;
+        height: 200px;
+    }
+    .singleweather{
+        
+        /* border: 1px solid black; */
+        text-align: center;
+        width: 100%;
+        padding: 10px;
+        margin-left: 5px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        box-shadow: rgba(6, 24, 44, 0.4) 0px 0px 0px 2px, rgba(6, 24, 44, 0.65) 0px 4px 6px -1px, rgba(255, 255, 255, 0.08) 0px 1px 0px inset;
+    }
+    .singleweather:hover{
+        cursor: pointer;
+        background-color: rgb(220, 214, 214);
+    }
+    .cloudImg{
+        width: 70%;
+    }
+    .temp{
+        margin: 1px;
+    }
+    
+    
+    .modalBox{
+        /* background-color: blue; */
+        height: 400px;
+        width: 50%;
+        margin: auto;
+        margin-top: 10%;
+        box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+        backdrop-filter: blur(20px);
+       
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+    
+    
+    .map_div{
+        margin: auto;
+        margin-left: 45px;
+    
+     
+       
+    }
+
+    .singleData{
+        /* border: 1px solid red; */
+    }
+
+    .outWeatherBox{
+        width: 100%;
+        gap: 30px;
+        overflow-x: scroll;
+    }
+
+    .singleweather{
+        width: 100%;
+        border-radius: 10px;
+        /* border: 1px solid red; */
+    }
+  }
+

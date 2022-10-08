@@ -26,7 +26,7 @@
 <h3 align="center" > Want to see live preview <h3>
 <p align="center">
 <br />
-<a target="blank" href="https://cashkaro.vercel.app/">Deployed Link</a>
+<a target="blank" href="https://weather-app-beta-bice.vercel.app//">Deployed Link</a>
 </p>
  
 

@@ -1,9 +1,10 @@
 import React from 'react'
+import "../styles/style.css"
 
 const Map = () => {
     let y = JSON.parse(localStorage.getItem('cityName'))
   return (
-    <div>
+    <div className='map'>
         <iframe
           title="gmap"
           name="gMap"

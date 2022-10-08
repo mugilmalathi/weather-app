@@ -139,5 +139,14 @@
         border-radius: 10px;
         /* border: 1px solid red; */
     }
+
+    .map{
+        /* border: 1px solid red; */
+        border-radius: 10px;
+        margin-bottom: 20px;
+    }
+    iframe{
+        border-radius: 10px;
+    }
   }
 
